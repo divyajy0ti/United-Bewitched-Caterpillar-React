@@ -1,0 +1,38 @@
+.hero-title-container {
+  display: flex;
+  position: relative;
+}
+.hero-title-text {
+  color: rgb(137, 80, 250);
+  width: auto;
+  height: auto;
+  font-size: 48px;
+  font-style: Black;
+  text-align: left;
+  font-family: "Gotham-Black";
+  font-weight: 900;
+  line-height: 56px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hero-title-text2 {
+  color: #000000;
+}
+
+@media(max-width: 1600px) {
+  .hero-title-text {
+    color: rgb(137, 80, 250);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+    text-decoration: none;
+  }
+  .hero-title-text2 {
+    color: #000000;
+  }
+}
+@media(max-width: 1200px) {
+  .hero-title-root-class-name {
+    width: 100%;
+  }
+}

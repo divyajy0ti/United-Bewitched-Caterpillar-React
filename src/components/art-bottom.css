@@ -1,0 +1,15 @@
+.art-bottom-container {
+  display: flex;
+  position: relative;
+}
+.art-bottom-bottomart {
+  width: 100%;
+  height: auto;
+  z-index: 20;
+}
+
+@media(max-width: 479px) {
+  .art-bottom-root-class-name {
+    width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+.faq-item-frame1171275098 {
+  width: 800px;
+  display: flex;
+  padding: 16px 24px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 30px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.30000001192092896);
+}
+.faq-item-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gotham;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.faq-item-chevron-left {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+@media(max-width: 1200px) {
+  .faq-item-frame1171275098 {
+    width: auto;
+  }
+  .faq-item-text {
+    font-family: Gotham-Bold;
+  }
+  .faq-item-root-class-name {
+    width: 100%;
+  }
+  .faq-item-root-class-name1 {
+    width: 100%;
+  }
+  .faq-item-root-class-name2 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .faq-item-frame1171275098 {
+    width: 100%;
+  }
+  .faq-item-root-class-name {
+    width: 100%;
+  }
+  .faq-item-root-class-name1 {
+    width: 100%;
+  }
+  .faq-item-root-class-name2 {
+    width: 100%;
+  }
+}

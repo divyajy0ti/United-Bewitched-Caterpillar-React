@@ -1,0 +1,22 @@
+.unique-selling-point-unique-selling-point {
+  gap: 10px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.unique-selling-point-button1 {
+  width: 16px;
+  height: 16px;
+}
+.unique-selling-point-text {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Gotham-Bold";
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}

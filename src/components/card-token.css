@@ -1,0 +1,121 @@
+.card-token-token {
+  gap: 24px;
+  flex: 1;
+  width: auto;
+  display: flex;
+  padding: 32px 24px;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  box-shadow: 0px 32px 32px -18px rgba(196, 180, 228, 0.5) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  border-radius: 59px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.30000001192092896);
+}
+.card-token-content {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card-token-top-container {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.card-token-logo {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.card-token-image {
+  width: 200px;
+  object-fit: cover;
+}
+.card-token-description {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.card-token-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Gotham-Bold";
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.card-token-text1 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: center;
+  font-family: "Gotham-Medium";
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.card-token-separator {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+}
+.card-token-text2 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Gotham-Bold";
+  font-weight: 700;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+
+
+@media(max-width: 767px) {
+  .card-token-root-class-name {
+    width: 100%;
+  }
+  .card-token-root-class-name1 {
+    width: 100%;
+  }
+  .card-token-root-class-name2 {
+    width: 100%;
+  }
+  .card-token-root-class-name3 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .card-token-token {
+    width: 100%;
+  }
+}

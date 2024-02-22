@@ -1,0 +1,28 @@
+.scroll-indicator-scroll-indicator {
+  gap: 16px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.scroll-indicator-frame1171275091 {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: rgba(137, 80, 250, 1);
+}
+.scroll-indicator-frame1171275093 {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}

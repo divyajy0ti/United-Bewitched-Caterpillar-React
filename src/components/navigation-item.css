@@ -1,0 +1,22 @@
+.navigation-item-container {
+  display: flex;
+  position: relative;
+}
+.navigation-item-text {
+  color: var(--dl-color-default-maintext);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gotham;
+  font-weight: 700;
+  line-height: 20px;
+  white-space: nowrap;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 479px) {
+  .navigation-item-text {
+    font-family: Gotham-Bold;
+  }
+}
